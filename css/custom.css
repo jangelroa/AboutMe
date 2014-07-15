@@ -36,9 +36,19 @@ h1, h3  {
 	min-width: 250px;
 }
 .img1 {
-	height: 200px;
+}
+.photo {
+	font-size: 25px;
 }
 
+#slider1_container {
+	position: relative; 
+	top: 0px; 
+	left: 0px; 
+	width: 600px; 
+	height: 300px; 
+	overflow: hidden;
+}
 
 @media(max-width: 500px){
 	#img-me {
@@ -76,4 +86,15 @@ h1, h3  {
 	.col-sm-4 {
 		margin: 15px;
 	}
+	.col-sm-12 {
+		margin-bottom: 15px;
+	}
+	#slider1_container {
+	position: relative; 
+	top: 0px; 
+	left: 0px; 
+	width: 300px; 
+	height: 150px; 
+	overflow: hidden;
+}
 }
