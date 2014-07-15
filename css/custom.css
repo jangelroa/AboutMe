@@ -1,0 +1,73 @@
+body {
+	background-color: rgba(144,157,173,1);
+}
+.container {
+	margin-top: 30px;
+}
+h1, h3  {
+  font-family: 'Shadows Into Light', cursive;
+  color: rgba(144,157,173,1);
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+#img-me {
+ float: right;
+ height: 100px;
+ margin-top: 0px;
+}
+.caption {
+	font-size: 22px;
+	color: rgba(144,157,173,1);
+}
+.inner-div {
+	background-color: #eee;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 20px;
+}
+.row{
+	margin: 0 50px;
+}
+.button {
+	text-align: center;
+}
+.col-sm-4 {
+	min-width: 250px;
+}
+
+
+@media(max-width: 500px){
+	#img-me {
+		height: 70px;
+		margin-top: 0;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 15px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h1, h3 {
+		margin: 0;
+		text-align: left;
+	}
+	.caption {
+	font-size: 14px;
+	text-align: right;
+	}
+	.inner-div {
+		margin: 15px 0;
+	}
+	.jumbotron {
+		margin: 0;
+		padding: 0 30px 30px 50px;
+		height: 170px;
+	}
+	.row {
+		margin: 0;
+	}
+}
