@@ -70,4 +70,7 @@ h1, h3  {
 	.row {
 		margin: 0;
 	}
+	.col-sm-4 {
+		margin: 15px;
+	}
 }
