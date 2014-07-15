@@ -35,6 +35,9 @@ h1, h3  {
 .col-sm-4 {
 	min-width: 250px;
 }
+.img1 {
+	height: 200px;
+}
 
 
 @media(max-width: 500px){
